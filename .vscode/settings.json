@@ -1,0 +1,7 @@
+{
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false
+}
