@@ -30,6 +30,49 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Alert &amp; Modal</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger alert-dismissable" role="alert">
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="alert-heading"> This is an alert!</h2>
+                    <p>
+                        i'm in alert! <a href="#" class="alert-link">Click me!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#demoModal"> Show modal</button>
+            </div>
+        </div>
+    </div>
+        <div class="modal" id="demoModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Pealse confirm!</h2>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is the modal body</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"> Confrim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
